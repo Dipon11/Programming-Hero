@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mixed Selector</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      p {
+        color: red;
+      }
+      #fifth {
+        font-size: 26px;
+      }
+      .holud,
+      .yellow {
+        background-color: yellow;
+      }
+      .bold {
+        font-weight: 800;
+      }
+      input {
+        color: green;
+      }
+
+      input[type="password"] {
+        color: red;
+      }
+      ::placeholder {
+        color: purple;
+      }
+      .css {
+        color: aqua;
+      }
+      #blog {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: brown;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <p>My <span class="css"> first line CSS </span></p>
+    <p>My second line CSS</p>
+    <p class="yellow">My third line CSS</p>
+    <p class="holud">My fourth line CSS</p>
+    <p id="fifth">My fifth line CSS</p>
+    <p>My sixth line CSS</p>
+    <p class="yellow bold">My seventh line CSS</p>
+    <p>My first line CSS</p>
+    <p class="yellow">My first line CSS</p>
+
+    <ul>
+      <li>Element selector</li>
+      <li>ID selector</li>
+      <li class="bold yellow">universal selector</li>
+      <li>class selector</li>
+    </ul>
+
+    <div id="blog">
+      <h3>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+        animi laboriosam ullam, cum totam quo numquam ea, dolorem velit rerum
+        sit, provident cupiditate quasi quis dolore officiis possimus
+        blanditiis? Sunt.
+      </h3>
+      <h2>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+        animi laboriosam ullam, cum totam quo numquam ea, dolorem velit rerum
+        sit, provident cupiditate quasi quis dolore officiis possimus
+        blanditiis? Sunt.
+      </h3>
+    </div>
+    <form action="">
+      <input type="text" placeholder="uuuuuu" />
+      <input type="password" placeholder="gg" name="" id="" />
+    </form>
+  </body>
+</html>

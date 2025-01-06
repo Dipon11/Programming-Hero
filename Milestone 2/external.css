@@ -1,0 +1,27 @@
+h3 {
+  font-size: 100px;
+  text-decoration: underline;
+  font-family: "Courier New", Courier, monospace;
+}
+.sec {
+  /* display: none;  Hide*/
+  /* 
+  visibility: hidden; */
+}
+
+.blog {
+  box-shadow: 10px 10px 20px blueviolet;
+}
+.inci {
+  border: 2px solid purple;
+  display: inline-block;
+  margin: 20px;
+}
+.header {
+  height: 230px;
+  background-color: aquamarine;
+  background-repeat: no-repeat  ;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuLzrjbHhSwUgEOAlociFvVG8hhlt-DXOKtQ&s");
+  /* background-size: cover; */
+  background-size: contain;
+}
