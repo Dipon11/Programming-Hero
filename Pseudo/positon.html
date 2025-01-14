@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css Positon</title>
+    <link rel="stylesheet" href="pos.css" />
+  </head>
+  <body>
+    <ol>
+      <!-- Flow Related -->
+      <li>Static</li>
+      <li>
+        Relative : Current position er relative ae koto tuku jaba
+        <small>and will not leave the current spot</small>
+      </li>
+      <li>
+        Absolute:
+        <small>will loose it position and will move based on the root</small>
+      </li>
+
+      <!-- Scroll Related -->
+      <li>Fixed</li>
+      <li>Sticky</li>
+    </ol>
+
+    <div class="swim">
+      <div class="box boy">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRd5KTuKlLPbrVpkrhl9aS6aMiq2UtKh-1Qg&s"
+          alt=""
+        />
+      </div>
+      <div class="box ring">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC8lgGvTEdzP4I7NSoh5mXQTKHyzpjQdaNqw&s"
+          alt=""
+        />
+      </div>
+      <div class="box water">
+        <img
+          src="data:image/jpeg;base64,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"
+          alt=""
+        />
+
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+      </div>
+    </div>
+  </body>
+</html>

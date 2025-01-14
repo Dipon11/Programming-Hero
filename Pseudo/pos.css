@@ -1,0 +1,17 @@
+.swim {
+  position: relative;
+  border: 2px dotted peru;
+}
+.box {
+  border: 2px dotted purple;
+}
+/* .ring {
+  position: relative;
+  left: 50px;
+  top: -30px;
+} */
+.ring {
+  position: absolute;
+  top: 40px;
+  left: 100px;
+}

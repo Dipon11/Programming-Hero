@@ -1,0 +1,4 @@
+Html Notes 
+
+  1.    <a target="_blank" href="https://w3schools.com/Html/">Read More</a>
+The target phrase is used to get to a new tab when read more is clicked 
